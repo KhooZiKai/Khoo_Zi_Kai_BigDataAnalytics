@@ -19,8 +19,8 @@ def clean_csv(input_file, output_file):
             writer.writerow(cleaned_row)
 
 if __name__ == '__main__':
-    input_csv_file = r"C:\Users\khooz\Downloads\NER_split\NER_only.csv"
-    output_csv_file = r"C:\Users\khooz\Downloads\NER_split\NER_clean.csv"
+    input_csv_file = r"C:\Users\khooz\Downloads\NER_split\NER_only.csv"  # Only Works On My Computer, Change to you Input Path
+    output_csv_file = r"C:\Users\khooz\Downloads\NER_split\NER_clean.csv"  # Only Works On My Computer, Change to you Output Path
 
     clean_csv(input_csv_file, output_csv_file)
 
